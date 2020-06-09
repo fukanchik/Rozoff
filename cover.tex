@@ -1,0 +1,59 @@
+\nonstopmode
+
+\documentclass[12pt]{article}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\definecolor{OLPiceblue}{RGB}{179,199,227}
+\definecolor{OLPreflexblue}{RGB}{255,100,32}
+\color{OLPreflexblue}
+\pagecolor{OLPiceblue}
+\usepackage[percent]{overpic}
+\usepackage{tikz}
+\usepackage{anyfontsize}
+\usepackage[paperwidth=20.333in, paperheight=9.5in, 
+            left=0.6875in, top=0.6in, right=0.6875in, bottom=0.5in,
+            vcentering, hcentering]{geometry}
+
+\setlength{\marginparwidth}{0in}
+\setlength{\marginparsep}{0in}
+
+\setlength{\footnotesep}{0pt}
+
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0.50in}
+
+\title{Депортация}
+\author{Александр Розов}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{0.0in}
+
+\raggedright
+
+\begin{document}
+\pagestyle{empty}
+\begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\begin{minipage}[t]{9in}
+
+\end{minipage}
+&
+
+\begin{minipage}[t]{9in}
+\centering
+
+\begin{tikzpicture}
+    \draw (0, 0) node[inner sep=0] {\includegraphics[trim=7cm 3cm 7cm 2cm,clip=true,width=\textwidth]{Clouds_over_the_Atlantic_Ocean.jpg}};
+%3755x2513
+    \draw (-3.5, 6) node {\fontsize{60}{72}\selectfont \textbf{Депортация}};
+    \draw (0, -6) node {\Huge \textbf{\textcolor{white}{Александр Розов}}};
+\end{tikzpicture}
+
+\end{minipage}
+
+\\
+\end{tabular*}
+
+\end{document}
