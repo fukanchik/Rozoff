@@ -5,7 +5,7 @@ COVER=cover.pdf
 
 all: $(DEPORTPDF) $(COVER)
 
-$(DEPORTPDF): deportation.tex
+$(DEPORTPDF): deportation.tex russian.tex
 	latexmk -pdf $<
 
 $(COVER): cover.tex
