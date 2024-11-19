@@ -12,4 +12,5 @@ $(COVER): cover.tex
 	latexmk -pdf $<
 
 clean:
-	rm deportation.log deportation.aux deportation.fls deportation.fdb_latexmk cover.log cover.aux cover.fls cover.fdb_latexmk
+	rm deportation.log deportation.aux deportation.fls deportation.fdb_latexmk \
+		cover.log cover.aux cover.fls cover.fdb_latexmk russian.aux deportation.toc deportation.pdf cover.pdf
